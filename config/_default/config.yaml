@@ -1,0 +1,21 @@
+baseURL: "https://www.example.com/"
+relativeURLs: true
+canonifyURLs: false
+
+languageCode: "es"
+title: "Mi Landing Page" # Título global del sitio
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+enableHugoPipes: true
+taxonomies: {}
+minify:
+  minifyOutput: false
+  tdewolff:
+    html:
+      keepWhitespace: true
+      keepComments: false
